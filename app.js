@@ -1,14 +1,14 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 // Variables para almacenar los amigos y sus sorteos
-const amigos = [];
-const listaAmigosElement = document.getElementById("listaAmigos");
-const resultadoElement = document.getElementById("resultado");
+let amigos = [];
+let listaAmigosElement = document.getElementById("listaAmigos");
+let resultadoElement = document.getElementById("resultado");
 
 // Función para agregar un amigo a la lista
 function agregarAmigo() {
-    const inputAmigo = document.getElementById("amigo");
-    const nombre = inputAmigo.value.trim();
-
+    let inputAmigo = document.getElementById("amigo");
+    let nombre = inputAmigo.value.trim();
+    console.log(inputAmigo)
     // Validar que el campo no esté vacío
     if (nombre === "") {
         alert("Por favor, ingrese un nombre válido.");
