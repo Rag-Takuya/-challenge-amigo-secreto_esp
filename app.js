@@ -77,7 +77,3 @@ function mostrarResultados(resultado) {
         resultadoElement.appendChild(li);
     });
 }
-<<<<<<< HEAD
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-=======
->>>>>>> 372bbc03feb711eba52c8de718d494a3a377450f
