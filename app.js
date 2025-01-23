@@ -8,7 +8,11 @@ let resultadoElement = document.getElementById("resultado");
 function agregarAmigo() {
     let inputAmigo = document.getElementById("amigo");
     let nombre = inputAmigo.value.trim();
+<<<<<<< HEAD
     console.log(inputAmigo.value)
+=======
+    console.log(inputAmigo)
+>>>>>>> 372bbc03feb711eba52c8de718d494a3a377450f
     // Validar que el campo no esté vacío
     if (nombre === "") {
         alert("Por favor, ingrese un nombre válido.");
@@ -75,4 +79,7 @@ function mostrarResultados(resultado) {
         resultadoElement.appendChild(li);
     });
 }
+<<<<<<< HEAD
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+=======
+>>>>>>> 372bbc03feb711eba52c8de718d494a3a377450f
